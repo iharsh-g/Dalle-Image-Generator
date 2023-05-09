@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 
 require("dotenv").config();
-const PORT = 8080;
+const PORT = 3000;
 
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
